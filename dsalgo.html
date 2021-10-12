@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Flip Card Click Effect</title>
+		<link rel="stylesheet" type="text/css" href="css/dsalgo.css" media="all" />
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- jQuery library -->
+        <script src="js/jquery.min.js"></script> 
+        
+        <!-- Popper JS -->
+        <script src="js/popper.min.js"></script> 
+
+        <!-- Latest compiled JavaScript -->
+        <script src="js/bootstrap.min.js"></script> 
+	</head>
+	<body>
+    <div id="demo" class="carousel slide" data-ride="carousel" data-interval="30000">
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="card-container">
+			<div class="card card-front">
+			  <img class="card-img-top" src="images/bst.png" alt="bubble sort time">
+			  <div class="card-body">
+			    <h5 class="card-title">Flip Me</h5>
+			  </div>
+			</div>
+			<div class="card card-back">
+			  <div class="card-body">
+                <hr class="top">
+			    <h4 class="card-text">O(n^2)</h4>
+                <hr>
+			  </div>
+			</div>
+	</div>
+    </div>
+    <div class="carousel-item">
+      <div class="card-container">
+			<div class="card card-front">
+			  <img class="card-img-top" src="images/mst.png" alt="merge sort time">
+			  <div class="card-body">
+			    <h5 class="card-title">Flip Me</h5>
+			  </div>
+			</div>
+			<div class="card card-back">
+			  <div class="card-body">
+                <hr class="top">
+			    <h4 class="card-text">O(nlogn)</h4>
+                <hr>
+			  </div>
+			</div>
+	</div>
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon" ></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+	</body>
+</html>
+
+
